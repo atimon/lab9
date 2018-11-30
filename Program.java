@@ -163,6 +163,7 @@ class MutableCircle extends Circle {
 public class Program {
 
     public static void main(String[] args) {
+        StdDraw.setCanvasSize(250, 250);
     	Scanner sc = new Scanner(System.in);
         StdDraw.setPenRadius(0.01);
     	// just initialized it to something to avoid errors;
